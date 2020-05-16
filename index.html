@@ -193,7 +193,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-05-16 16:58:02" itemprop="dateModified" datetime="2020-05-16T16:58:02+08:00">2020-05-16</time>
+                <time title="修改時間：2020-05-16 17:00:19" itemprop="dateModified" datetime="2020-05-16T17:00:19+08:00">2020-05-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -230,14 +230,17 @@
 <li>聲明和賦值是兩個步驟。  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var a;  &#x2F;&#x2F; 聲明</span><br><span class="line">a &#x3D; 1;  &#x2F;&#x2F; 賦值</span><br></pre></td></tr></table></figure></li>
 <li>如果只是聲明而沒有賦值，則變量的值為<code>undefined</code>(無定義)</li>
 <li>可以在一個語句中聲明多個變量，像下面一樣。 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var a, b; &#x2F;&#x2F;中間用逗號隔開</span><br></pre></td></tr></table></figure>
-<h2 id="變量提升"><a href="#變量提升" class="headerlink" title="變量提升"></a>變量提升</h2></li>
+
+</li>
 </ul>
-<p>由於JS引擎的運作方式為先獲取全部變量然後在運行，因此變量會全部被提到頂部（但值不會，所以變量會是未賦值的狀態，直到運行到賦值那行才會賦值）。</p>
+<h2 id="變量提升"><a href="#變量提升" class="headerlink" title="變量提升"></a>變量提升</h2><ul>
+<li>由於JS引擎的運作方式為先獲取全部變量然後在運行，因此變量會全部被提到頂部（但值不會，所以變量會是未賦值的狀態，直到運行到賦值那行才會賦值）。</li>
+</ul>
 <h1 id="標識符（identifier）"><a href="#標識符（identifier）" class="headerlink" title="標識符（identifier）"></a>標識符（identifier）</h1><ul>
 <li>標識符指的是用來識別各種值的名稱。</li>
 <li>最常見的標識符就是變量名，以及後面會提到的函數名。</li>
 <li>JavaScript語言的標識符對於大小寫敏感，所以<code>a</code>和<code>A</code>是兩個不同的標識符。</li>
-<li>標識符的命名規則如下<ol>
+<li>標識符的命名規則如下：<ol>
 <li>第一個字符，可以是任何Unicode字母，以及美元符號（<code>$</code>）和下劃綫（<code>_</code>）。</li>
 <li>剩下的字符，除了字母、<code>$</code>、<code>_</code>之外還可以是數字<code>0~9</code>。</li>
 <li>JavaScript 有一些保留字，不能用作標識符：<blockquote>
