@@ -1398,7 +1398,7 @@ pre code {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ab8e3e;
+  background: #a365f5;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
