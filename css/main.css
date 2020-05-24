@@ -203,22 +203,22 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 1.46em;
+  font-size: 1.624em;
 }
 h2 {
-  font-size: 1.295em;
+  font-size: 1.623em;
 }
 h3 {
-  font-size: 1.13em;
+  font-size: 1.622em;
 }
 h4 {
-  font-size: 0.965em;
+  font-size: 1.621em;
 }
 h5 {
-  font-size: 0.8em;
+  font-size: 1.62em;
 }
 h6 {
-  font-size: 0.635em;
+  font-size: 1.619em;
 }
 p {
   margin: 0 0 20px 0;
@@ -1398,7 +1398,7 @@ pre code {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #49a8ab;
+  background: #5dffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
